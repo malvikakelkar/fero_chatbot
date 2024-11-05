@@ -1,0 +1,230 @@
+{
+    "root": {
+      "question": "What industry are you currently in?",
+      "options": {
+        "Freight Forwarder": {
+          "result": "TAME"
+        },
+        "3PL": {
+          "result": "TAME"
+        },
+        "Manufacturer": {
+          "result": "TAME"
+        },
+        "Distributor": {
+          "result": "TAME"
+        },
+        "Port": {
+          "result": "TAME"
+        },
+        "Courier": {
+          "result": "DASH"
+        },
+        "Haulier": {
+          "result": "DASH"
+        }
+      }
+    },
+    "TAME": {
+      "question": "What is your primary focus?",
+      "options": {
+        "Cost Optimisation": {
+          "question": "Are you looking to optimise vehicle loads?",
+          "options": {
+            "Yes": {
+              "result": "Trip Planning Module"
+            },
+            "No": {
+              "question": "Do you need route optimisation?",
+              "options": {
+                "Yes": {
+                  "result": "Consolidation Management"
+                },
+                "No": {
+                  "result": "Trip Planning Module"
+                }
+              }
+            }
+          }
+        },
+        "Operations Management": {
+          "question": "What aspect of operations management?",
+          "options": {
+            "Asset Related": {
+              "question": "What type of asset management?",
+              "options": {
+                "Vehicle Fleet": {
+                  "result": "Fleet Management Module"
+                },
+                "All Assets": {
+                  "result": "Asset Management Module"
+                }
+              }
+            },
+            "Scheduling Operations": {
+              "result": "Scheduling Module"
+            },
+            "Tracking Updates": {
+              "result": "Tracking Updates"
+            }
+          }
+        },
+        "Financial Management": {
+          "question": "What type of financial management?",
+          "options": {
+            "Pricing": {
+              "question": "Do you need rate negotiations?",
+              "options": {
+                "Yes": {
+                  "result": "Pricing Engine Module"
+                },
+                "No": {
+                  "result": "Quotation Engine Module"
+                }
+              }
+            },
+            "Billing": {
+              "result": "Invoicing Module"
+            },
+            "Procurement": {
+              "result": "Procurement Engine Module"
+            }
+          }
+        },
+        "Stakeholder Management": {
+          "question": "Which Stakeholders?",
+          "options": {
+            "Customers": {
+              "result": "Customer Management Module"
+            },
+            "Vendors": {
+              "result": "Vendor Management Module"
+            },
+            "Contracts": {
+              "result": "Contract Management Module"
+            }
+          }
+        },
+        "Market Operations": {
+          "result": "Marketplace Management Module"
+        },
+        "Reporting": {
+          "question": "What type of reports?",
+          "options": {
+            "Custom": {
+              "result": "Report and Analytics Module"
+            },
+            "Analytics": {
+              "result": "Report and Analytics Module"
+            }
+          }
+        }
+      }
+    },
+    "DASH": {
+      "question": "What is your primary focus?",
+      "options": {
+        "Operations Optimisation": {
+          "question": "What aspect of operations do you want to optimize?",
+          "options": {
+            "Route & Delivery Planning": {
+              "question": "Do you need fleet size planning?",
+              "options": {
+                "Yes": {
+                  "result": "Capacity Engine Module"
+                },
+                "No": {
+                  "result": "Trip Planning Module"
+                }
+              }
+            },
+            "Exception Management": {
+              "result": "Exception Management Module"
+            }
+          }
+        },
+        "Fleet & Assets": {
+          "question": "What type of management do you need?",
+          "options": {
+            "Complete Fleet Operations": {
+              "result": "Fleet Management Module"
+            },
+            "Asset Tracking & Monitoring": {
+              "result": "Asset Management Module"
+            },
+            "Fleet Size & Capacity Planning": {
+              "result": "Capacity Engine Module"
+            }
+          }
+        },
+        "Dispatch Operations": {
+          "question": "What aspect of dispatch needs improvement?",
+          "options": {
+            "Real Time Coordination": {
+              "result": "Dispatch Coordination Module"
+            },
+            "Process Monitoring": {
+              "result": "Exception Management Module"
+            }
+          }
+        },
+        "Document & Data Management": {
+          "question": "What type of documentation needs?",
+          "options": {
+            "Document Processing & Automation": {
+              "question": "Do you need automated data extraction?",
+              "options": {
+                "Yes": {
+                  "result": "Document Management Module"
+                },
+                "No": {
+                  "result": "Reports and Analytics Module"
+                }
+              }
+            },
+            "Status Updates & Tracking": {
+              "question": "Do you need real-time milestone updates?",
+              "options": {
+                "Yes": {
+                  "result": "Milestone Management Module"
+                },
+                "No": {
+                  "result": "Reports and Analytics Module"
+                }
+              }
+            },
+            "Business Intelligence": {
+              "question": "Do you need detailed analytics?",
+              "options": {
+                "Yes": {
+                  "result": "Reports and Analytics Module"
+                },
+                "No": {
+                  "result": "Milestone Management Module"
+                }
+              }
+            }
+          }
+        },
+        "Customer Experience": {
+          "question": "Do you need to improve customer interaction?",
+          "options": {
+            "Yes": {
+              "result": "Customer Management Module"
+            },
+            "No": {
+              "question": "Do you need operational monitoring?",
+              "options": {
+                "Yes": {
+                  "result": "Reports and Analytics Module"
+                },
+                "No": {
+                  "result": "Exception Management Module"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
