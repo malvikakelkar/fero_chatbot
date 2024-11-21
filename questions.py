@@ -1,4 +1,19 @@
 questions = [
+        {
+        'id': 0,  # Assign an ID before the existing questions
+        'question': 'Which industry does your company operate in?',
+        'options': [
+            'Freight Forwarder',
+            'Haulier',
+            '3PL (Third-Party Logistics Provider)',
+            'Manufacturer',
+            'Distributor',
+            'Port',
+            'Courier',
+            'Other'
+        ],
+        'type': 'single',
+    },
     # Section 1: Company and Operations Overview
     {
         'id': 1,
